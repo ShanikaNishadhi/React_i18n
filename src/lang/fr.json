@@ -1,0 +1,7 @@
+{
+  "app.header" : "Modifiez <code>{fileName}</code> et enregistrez-les pour recharger" ,
+  "app.content" : "Apprendre React" ,
+  "app.channel.plug": "Tutoriel présenté par Lokalise",
+  "app.plural": "{amount, plural, =0 {no languages} one {# one language} few {# several languages} many {# lots of languages} other {# wrong fromat}}"
+
+}

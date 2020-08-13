@@ -1,0 +1,6 @@
+{
+  "app.header" : "Edit<code>{fileName}</code> js and save to reload" ,
+  "app.content" : "Learn React" ,
+  "app.channel.plug": "Tutorial brought to you by {blogName}",
+  "app.plural": "{amount, plural, =0 {no languages} one {# one language} few {# several languages} many {# lots of languages} other {# wrong fromat}}"
+}
