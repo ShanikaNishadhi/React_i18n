@@ -1,0 +1,27 @@
+name: "Lokalise File Download"
+
+on:
+  workflow_dispatch:
+    inputs:
+      token: # id of input
+        description: "Your CLI/API token for Lokalise"
+        required: true
+      project-id: # id of input
+        description: "Your project ID for Lokalise"
+        required: true
+      file-path: # id of input
+        description: "The path to the destination folder"
+        required: true
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Upload file to Lokalise
+        run: |
+         chmod +x ./scripts/upload.sh
+         ./scripts/upload.sh ${{ inputs.token }} ${{ inputs.project-id }} ${{ inputs.file-path }}
+        shell: bash
+       
+    
