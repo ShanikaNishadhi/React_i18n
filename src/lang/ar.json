@@ -4,5 +4,4 @@
   "app.content" : "تعلم React" ,
   "app.channel.plug": "يقدم لك البرنامج التعليمي {blogName}",
   "app.plural": "{amount, plural, =0 {no languages} one {# one language} few {# several languages} many {# lots of languages} other {# wrong fromat}}"
-
 }
